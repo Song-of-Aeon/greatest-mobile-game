@@ -4,9 +4,6 @@ function c_input() {
 	for (i=0; i<array_length(inputs); i++) {
 		set_value(self, inputs[i], global.inputs[$inputs[i]]);
 	}
-	
-	//these guys are compounds that are per-instance of c_input
-	buttons = [shoot, bomb, special];
 }
 
 function c_inputupdate() {
@@ -23,14 +20,14 @@ function c_inputload() {
 	nu kinput("up", [vk_up, vk_numpad8, gp_padu], "Up");
 	nu kinput("right", [vk_right, vk_numpad6, gp_padr], "Right");
 	
-	nu kinput("shoot", ["A", gp_face3], "Left use");
+	nu kinput("jump", ["A", gp_face3], "Left use");
 	nu kinput("bomb", ["S", gp_face1], "Center use");
 	nu kinput("special", ["D", gp_face2], "Right use");
 	nu kinput("shift", [vk_shift, vk_space, gp_shoulderl, gp_shoulderr, gp_shoulderlb, gp_shoulderrb], "Focus");
 	
 	nu kinput("map", [vk_tab, gp_face4], "Open map");
 	nu kinput("esc", [vk_escape, gp_start], "Pause");
-	nu kinput("select", [vk_enter], "Select", ["shoot"]);
+	nu kinput("select", [vk_enter], "Select", ["jump"]);
 	nu kinput("back", [vk_backspace], "Back", ["bomb", "esc"]);
 	nu kinput("skip", [vk_control, gp_select], "Skip text", ["special"]);
 	nu kinput("null", []);

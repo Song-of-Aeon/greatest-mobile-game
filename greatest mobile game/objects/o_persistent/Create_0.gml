@@ -1,7 +1,2 @@
-
-
-if(instance_number(o_persistent)>1){
-	instance_destroy();
-	return;
-}
+only_one();
 global.lang = LANGUAGE.ENGLISH;
