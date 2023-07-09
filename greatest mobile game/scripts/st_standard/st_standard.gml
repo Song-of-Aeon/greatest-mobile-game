@@ -15,12 +15,14 @@ function st_standard() {
 		aerial = true	
 	}
 	if(!aerial){
-		if(jump.hit){
-			spd.v = -jumpspeed;		
-		}
+		leniance = lencount;
+	} else {
+		leniance--;
 	}
-	else{
-		if(jump.hit){
+	if(jump.hit){
+		if aerial || leniance {
+			spd.v = -jumpspeed;
+		} else {
 			//spd.v = 0;
 			c_slash(x, y, global.slashes.normal);
 		}
