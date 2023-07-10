@@ -81,6 +81,7 @@
     {"id":{"name":"array_remove","path":"scripts/array_remove/array_remove.yy",},},
     {"id":{"name":"textline_next","path":"scripts/textline_next/textline_next.yy",},},
     {"id":{"name":"draw_settings","path":"scripts/draw_settings/draw_settings.yy",},},
+    {"id":{"name":"scorer","path":"scripts/scorer/scorer.yy",},},
     {"id":{"name":"draw_hitbox","path":"scripts/draw_hitbox/draw_hitbox.yy",},},
     {"id":{"name":"draw_meaning","path":"scripts/draw_meaning/draw_meaning.yy",},},
     {"id":{"name":"s_blunder","path":"sprites/s_blunder/s_blunder.yy",},},

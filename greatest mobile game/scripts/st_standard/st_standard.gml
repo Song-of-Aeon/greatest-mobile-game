@@ -20,7 +20,7 @@ function st_standard() {
 		leniance--;
 	}
 	if(jump.hit){
-		if aerial || leniance {
+		if !aerial || leniance {
 			spd.v = -jumpspeed;
 		} else {
 			//spd.v = 0;
