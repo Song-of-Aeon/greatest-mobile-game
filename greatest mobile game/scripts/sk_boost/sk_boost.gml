@@ -4,14 +4,14 @@ global.skills.boost = {
 		if !used && charge >= chargereq {
 			used = true;
 			charge = 0;
-			NOSTALGIAC.spd.h = -14;
+			NOSTALGIAC.spd.h = -5;
 		}
 	},
 	onstep: function() {
 		if !NOSTALGIAC.aerial {
 			used = false;
 			charge = 0;
-			NOSTALGIAC.x = lapp(NOSTALGIAC.x, NOSTALGIAC.intendedx, 2);
+			NOSTALGIAC.x = lapp(NOSTALGIAC.x, NOSTALGIAC.intendedx, .7);
 		}
 		NOSTALGIAC.spd.h = lerp(NOSTALGIAC.spd.h, 0, .2);
 	},

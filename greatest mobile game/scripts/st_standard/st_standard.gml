@@ -11,7 +11,7 @@ function st_standard() {
 	
 	var buildings = collision_line_array(x,y,x,y+spd.v+sprite_get_yoffset(sprite_index),o_building,false,true,true);
 	
-	if(array_length(buildings) > 0){
+	if(array_length(buildings) > 0) {
 		aerial = false;
 		spd.v = 0;
 		y = buildings[0].bbox_top - sprite_get_yoffset(sprite_index);
@@ -33,7 +33,7 @@ function st_standard() {
 		}
 	}
 	if jump.drop && spd.v < 0 {
-		spd.v *= .5;
+		spd.v *= .25;
 	}
     x += spd.h;
     y += spd.v;

@@ -1,1 +1,1 @@
-spd = 5;
+spd = global.buildingspeed;

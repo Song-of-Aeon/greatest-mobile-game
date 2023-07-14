@@ -19,7 +19,7 @@ global.textstyles.nvl = {
 	height: 284,
 	spriteposy: 150,
 	namepos: new vec2(-216, 7),
-	sprite: s_bigtext,
+	sprite: s_thebigtext,
 	type: st_textnvl,
 	font: ft_marineconstellation,
 }

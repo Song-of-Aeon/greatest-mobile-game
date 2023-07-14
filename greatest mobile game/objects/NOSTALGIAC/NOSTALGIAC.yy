@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_blunder",
-    "path": "sprites/s_blunder/s_blunder.yy",
+    "name": "s_thesmallblunder",
+    "path": "sprites/s_thesmallblunder/s_thesmallblunder.yy",
   },
   "spriteMaskId": null,
   "visible": true,
