@@ -14,6 +14,9 @@ global.skills.glide = {
 			remaining = duration;
 		}
 	},
+	ondraw: function() {
+		
+	},
 	duration: 20,
 	remaining: 0,
 	flyspd: 0,

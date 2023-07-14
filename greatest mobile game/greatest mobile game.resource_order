@@ -17,9 +17,9 @@
     {"name":"array","order":1,"path":"folders/Scripts/data/array.yy",},
     {"name":"drawing","order":3,"path":"folders/Scripts/drawing.yy",},
     {"name":"vlambeer","order":1,"path":"folders/Scripts/drawing/vlambeer.yy",},
+    {"name":"Skills","order":23,"path":"folders/Skills.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Textbox","order":18,"path":"folders/Textbox.yy",},
-    {"name":"Skills","order":23,"path":"folders/Skills.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"pragma","order":43,"path":"scripts/pragma/pragma.yy",},
@@ -60,6 +60,7 @@
     {"name":"wunction","order":63,"path":"scripts/wunction/wunction.yy",},
     {"name":"s_bigtext","order":4,"path":"sprites/s_bigtext/s_bigtext.yy",},
     {"name":"msglang","order":12,"path":"scripts/msglang/msglang.yy",},
+    {"name":"sk_boost","order":1,"path":"scripts/sk_boost/sk_boost.yy",},
     {"name":"ft_sans","order":2,"path":"fonts/ft_sans/ft_sans.yy",},
     {"name":"array_remove","order":13,"path":"scripts/array_remove/array_remove.yy",},
     {"name":"textline_next","order":5,"path":"scripts/textline_next/textline_next.yy",},

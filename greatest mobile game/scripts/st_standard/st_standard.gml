@@ -5,7 +5,7 @@ function st_standard() {
 	spd.v += grav;
 	
 	skill.onstep();
-	if jump.hold && spd.v >= 0 {
+	if jump.hold && spd.v >= 0 && aerial {
 		skill.onuse();
 	}
 	
