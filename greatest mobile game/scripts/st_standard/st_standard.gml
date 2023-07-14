@@ -4,6 +4,11 @@ function st_standard() {
 	
 	spd.v += grav;
 	
+	skill.onstep();
+	if jump.hold && spd.v >= 0 {
+		skill.onuse();
+	}
+	
 	var buildings = collision_line_array(x,y,x,y+spd.v+sprite_get_yoffset(sprite_index),o_building,false,true,true);
 	
 	if(array_length(buildings) > 0){
@@ -26,6 +31,9 @@ function st_standard() {
 			//spd.v = 0;
 			c_slash(x, y, global.slashes.normal);
 		}
+	}
+	if jump.drop && spd.v < 0 {
+		spd.v *= .5;
 	}
     x += spd.h;
     y += spd.v;

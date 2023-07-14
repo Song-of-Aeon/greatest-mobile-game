@@ -19,6 +19,7 @@
     {"name":"vlambeer","order":1,"path":"folders/Scripts/drawing/vlambeer.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Textbox","order":18,"path":"folders/Textbox.yy",},
+    {"name":"Skills","order":23,"path":"folders/Skills.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"pragma","order":43,"path":"scripts/pragma/pragma.yy",},

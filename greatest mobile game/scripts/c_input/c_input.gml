@@ -20,7 +20,7 @@ function c_inputload() {
 	nu kinput("up", [vk_up, vk_numpad8, gp_padu], "Up");
 	nu kinput("right", [vk_right, vk_numpad6, gp_padr], "Right");
 	
-	nu kinput("jump", ["A", gp_face3], "Left use");
+	nu kinput("jump", ["A", "Z", vk_space, mb_left, gp_face3], "Left use");
 	nu kinput("bomb", ["S", gp_face1], "Center use");
 	nu kinput("special", ["D", gp_face2], "Right use");
 	nu kinput("shift", [vk_shift, vk_space, gp_shoulderl, gp_shoulderr, gp_shoulderlb, gp_shoulderrb], "Focus");
