@@ -10,6 +10,7 @@ global.playingmusictime = 0;
 
 
 nu song("nothing ~ there's nothing", "null");
+nu song("Mizuno", "ikachan", [m_ikachan], 96, "by daisuke amaya", "./maps/mizuno.sm");
 
 
 

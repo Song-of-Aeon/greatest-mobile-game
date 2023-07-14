@@ -14,4 +14,9 @@ function note(time_, lane_, depth_) constructor {
 	lane = lane_;
 	time = time_;
 	pos = time;
+	friendobject = instance_parallax(-50, 180, o_building);
+	//friendobject.sprite_index = array_random(global.buildings);
+	friendobject.sprite_index = s_bmodern;
+	friendobject.image_yscale = (lane+1)*.5;
+	triggered = false;
 }

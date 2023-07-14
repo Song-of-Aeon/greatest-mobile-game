@@ -1,5 +1,6 @@
 function sm_parse(path) {
 	var sm = file_text_open_read(path);
+	log(path);
 	if !sm return false;
 	var offset = 0.2;
 	var lanes = 4;
