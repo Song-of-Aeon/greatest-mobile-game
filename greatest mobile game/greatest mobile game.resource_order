@@ -200,6 +200,7 @@
     {"name":"se_sans","order":3,"path":"sounds/se_sans/se_sans.yy",},
     {"name":"ncms","order":38,"path":"scripts/ncms/ncms.yy",},
     {"name":"draw_thing","order":24,"path":"scripts/draw_thing/draw_thing.yy",},
+    {"name":"c_depthify","order":73,"path":"scripts/c_depthify/c_depthify.yy",},
     {"name":"song","order":3,"path":"scripts/song/song.yy",},
     {"name":"instance_create","order":7,"path":"scripts/instance_create/instance_create.yy",},
     {"name":"rescale","order":21,"path":"scripts/rescale/rescale.yy",},

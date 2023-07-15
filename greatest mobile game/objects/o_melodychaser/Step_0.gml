@@ -12,13 +12,14 @@ lineflash = lerp(lineflash, .1, .1);
 //log(notes[0].pos);
 iterate notes to {
 	notes[i].pos = notes[i].time-present_time;
-	notes[i].friendobject.x = NOSTALGIAC.intendedx-notes[i].pos*32*xmod*(1-notes[i].friendobject.depth_*.15)+sprite_get_width(notes[i].friendobject.sprite_index)/2;
+	var pal = notes[i].friendobject;
+	pal.x = NOSTALGIAC.intendedx-notes[i].pos*32*xmod*(1-pal.depth_*.2)+sprite_get_width(pal.sprite_index)*pal.image_xscale/2;
 	if notes[i].pos < 0 && !notes[i].triggered {
 		lineflash = .8;
 		notes[i].triggered = true;
 	}
 	if notes[i].pos < -8 {
-		instance_destroy(notes[i].friendobject);
+		instance_destroy(pal);
 		beatpulse(notes[i].lane, 1);
 		array_delete(notes, i, 1);
 		i--;

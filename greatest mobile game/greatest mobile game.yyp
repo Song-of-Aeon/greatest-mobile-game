@@ -234,6 +234,7 @@
     {"id":{"name":"se_sans","path":"sounds/se_sans/se_sans.yy",},},
     {"id":{"name":"ncms","path":"scripts/ncms/ncms.yy",},},
     {"id":{"name":"draw_thing","path":"scripts/draw_thing/draw_thing.yy",},},
+    {"id":{"name":"c_depthify","path":"scripts/c_depthify/c_depthify.yy",},},
     {"id":{"name":"song","path":"scripts/song/song.yy",},},
     {"id":{"name":"instance_create","path":"scripts/instance_create/instance_create.yy",},},
     {"id":{"name":"rescale","path":"scripts/rescale/rescale.yy",},},
