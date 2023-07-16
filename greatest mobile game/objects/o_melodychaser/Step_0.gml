@@ -13,7 +13,8 @@ lineflash = lerp(lineflash, .1, .1);
 iterate notes to {
 	notes[i].pos = notes[i].time-present_time;
 	var pal = notes[i].friendobject;
-	pal.x = NOSTALGIAC.intendedx-notes[i].pos*32*xmod*(1-pal.depth_*.2)+sprite_get_width(pal.sprite_index)*pal.image_xscale/2;
+	var thexmod = pal.object_index == o_bird ? xmod*1.35 : xmod;
+	pal.x = NOSTALGIAC.intendedx-notes[i].pos*32*thexmod*(1-pal.depth_*.2)+sprite_get_width(pal.sprite_index)*pal.image_xscale/2;
 	if notes[i].pos < 0 && !notes[i].triggered {
 		lineflash = .8;
 		notes[i].triggered = true;

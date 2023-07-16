@@ -1,3 +1,14 @@
+var surf = surface_create(room_width, room_height);
+surface_copy(surf, 0, 0, application_surface);
+
+
+shader_set(z_palette);
+//draw_spr(50, 50, s_bpeople);
+draw_surface(surf, 0, 0);
+shader_reset()
+
+surface_free(surf);
+
 exit;
 canvas global.surfaces.hud to_brush
 	draw_clear(c_red);

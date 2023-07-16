@@ -23,6 +23,7 @@ aerial = false;
 hp = 10;
 maxhp = 100;
 inv = 0;
+slashed = false;
 
 x = room_width*.7
 intendedx = room_width*.7;

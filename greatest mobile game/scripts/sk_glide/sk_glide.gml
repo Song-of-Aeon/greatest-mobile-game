@@ -15,7 +15,10 @@ global.skills.glide = {
 		}
 	},
 	ondraw: function() {
-		
+		if remaining && remaining < duration {
+			draw_set_color(c_black);
+			draw_circle_curve(NOSTALGIAC.x+30, NOSTALGIAC.y, 8, 20, 90, remaining/(duration)*360, 2, false);
+		}
 	},
 	duration: 20,
 	remaining: 0,

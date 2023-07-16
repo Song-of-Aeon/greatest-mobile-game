@@ -1,5 +1,3 @@
-global.skills = {};
-
 global.skills.fastfall = {
 	onuse: function() {
 		charge++;
@@ -26,6 +24,7 @@ global.skills.fastfall = {
 	},
 	ondraw: function() {
 		if !used {
+			draw_set_color(c_black);
 			draw_circle_curve(NOSTALGIAC.x+30, NOSTALGIAC.y, 8, 20, 90, charge/(chargereq-1)*360, 2, false);
 		}
 	},

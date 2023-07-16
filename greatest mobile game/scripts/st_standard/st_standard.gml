@@ -21,14 +21,16 @@ function st_standard() {
 	}
 	if(!aerial){
 		leniance = lencount;
+		slashed = false;
 	} else {
 		leniance--;
 	}
 	if(jump.hit){
 		if !aerial || leniance {
 			spd.v = -jumpspeed;
-		} else {
+		} else if ! slashed {
 			//spd.v = 0;
+			slashed = true;
 			c_slash(x, y, global.slashes.normal);
 		}
 	}
@@ -58,5 +60,6 @@ function slash(name_, draw_) constructor {
 }
 global.slashes = {};
 nu slash("normal", function() {
+	draw_set_color(c_black);
 	draw_rectangle(x-width*.7, y-height*.5*(durability/durabilitymax), x+width*.3, y+height*.5*(durability/durabilitymax), false);
 });
