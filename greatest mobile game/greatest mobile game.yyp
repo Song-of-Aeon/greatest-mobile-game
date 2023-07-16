@@ -79,6 +79,7 @@
     {"id":{"name":"instance_get_all","path":"scripts/instance_get_all/instance_get_all.yy",},},
     {"id":{"name":"hex2dec","path":"scripts/hex2dec/hex2dec.yy",},},
     {"id":{"name":"simulate","path":"scripts/simulate/simulate.yy",},},
+    {"id":{"name":"palette","path":"scripts/palette/palette.yy",},},
     {"id":{"name":"s_null","path":"sprites/s_null/s_null.yy",},},
     {"id":{"name":"s_palette","path":"sprites/s_palette/s_palette.yy",},},
     {"id":{"name":"lapp","path":"scripts/lapp/lapp.yy",},},

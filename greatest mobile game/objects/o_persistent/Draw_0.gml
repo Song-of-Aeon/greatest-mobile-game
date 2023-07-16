@@ -1,3 +1,19 @@
+log(palpos);
+draw_set_color(c_black);
+//draw_set_halign(fa_right);
+
+iterate dudes to {
+	if i == palpos {
+		draw_set_color(c_black);
+	} else {
+		draw_set_color(c_grey);
+	}
+	draw_meaning(10, 10+i*12, dudes[i]);
+}
+draw_set_alpha(1);
+
+exit;
+
 var friend = sprite_create_from_surface(application_surface, 0, 0, surface_get_width(application_surface), surface_get_height(application_surface), true, false, 0, 0);
 
 draw_set_color(c_white);

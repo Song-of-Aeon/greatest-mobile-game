@@ -57,6 +57,7 @@
     {"name":"instance_get_all","order":8,"path":"scripts/instance_get_all/instance_get_all.yy",},
     {"name":"hex2dec","order":27,"path":"scripts/hex2dec/hex2dec.yy",},
     {"name":"simulate","order":45,"path":"scripts/simulate/simulate.yy",},
+    {"name":"palette","order":74,"path":"scripts/palette/palette.yy",},
     {"name":"s_null","order":2,"path":"sprites/s_null/s_null.yy",},
     {"name":"s_palette","order":19,"path":"sprites/s_palette/s_palette.yy",},
     {"name":"lapp","order":11,"path":"scripts/lapp/lapp.yy",},
