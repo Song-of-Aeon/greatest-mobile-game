@@ -1,4 +1,4 @@
-function note(time_, lane_, depth_) constructor {
+function note(time_, lane_, depth_, type_) constructor {
 	depth = depth_;
 	switch depth {
 		case 0:
@@ -13,10 +13,29 @@ function note(time_, lane_, depth_) constructor {
 	}
 	lane = lane_;
 	time = time_;
+	type = type_;
 	pos = time;
-	friendobject = instance_parallax(-50, 180, o_building);
-	friendobject.sprite_index = array_random(global.buildings);
-	//friendobject.sprite_index = s_bmodern;
-	friendobject.image_yscale = (lane+1)*.5;
+	switch type {
+		default:
+			friendobject = instance_parallax(-50, 180, o_building);
+			friendobject.sprite_index = array_random(global.buildings);
+			friendobject.image_yscale = (lane+1)*.5;
+			break;
+		case NOTETYPE.MINE:
+			friendobject = instance_parallax(-50, 100+irandom(40), o_bird);
+			//friendobject.sprite_index = array_random(global.buildings);
+			//friendobject.image_yscale = (lane+1)*.5;
+			break;
+	}
 	triggered = false;
+}
+
+enum NOTETYPE {
+	NULL,
+	HIT,
+	HOLD,
+	DROP,
+	FAKE,
+	LIFT,
+	MINE,
 }

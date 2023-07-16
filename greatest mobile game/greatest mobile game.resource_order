@@ -70,6 +70,7 @@
     {"name":"array_remove","order":13,"path":"scripts/array_remove/array_remove.yy",},
     {"name":"textline_next","order":5,"path":"scripts/textline_next/textline_next.yy",},
     {"name":"draw_settings","order":4,"path":"scripts/draw_settings/draw_settings.yy",},
+    {"name":"sk_fastfall","order":2,"path":"scripts/sk_fastfall/sk_fastfall.yy",},
     {"name":"scorer","order":69,"path":"scripts/scorer/scorer.yy",},
     {"name":"draw_hitbox","order":5,"path":"scripts/draw_hitbox/draw_hitbox.yy",},
     {"name":"draw_meaning","order":19,"path":"scripts/draw_meaning/draw_meaning.yy",},

@@ -23,7 +23,7 @@ function sm_parse(path) {
 		if string_contains(myline, "/") continue;
 		var mylane = 0;
 		repeat(lanes) {
-			guys[eye][jay-1] = real(string_copy(myline, mylane+1, 1));
+			guys[eye][jay-1] = string_copy(myline, mylane+1, 1);
 			jay++;
 			mylane++;
 		}
@@ -34,10 +34,25 @@ function sm_parse(path) {
 	iterate guys to {
 		beatdepth = array_length(guys[i])/lanes;
 		for (j=0; j<array_length(guys[i]); j++) {
-			if guys[i][j] == 1 || guys[i][j] == 2 {
+			var type = guys[i][j];
+			switch type {
+				case "F":
+					type = NOTETYPE.FAKE;
+					break;
+				case "L":
+					type = NOTETYPE.LIFT;
+					break;
+				case "M":
+					type = NOTETYPE.MINE;
+					break;
+				default:
+					type = real(type);
+					break;
+			}
+			if type != 0 {
 				curbeat = floor(j/lanes)/beatdepth+i;
 				notedepth = floor(j/lanes)%(beatdepth/4);
-				array_push(tempnotes, new note(beatcalc(curbeat, mysong.bpm)+offset, j%4, notedepth));
+				array_push(tempnotes, new note(beatcalc(curbeat, mysong.bpm)+offset, j%4, notedepth, type));
 			}
 		}
 	}
