@@ -24,4 +24,6 @@ nu palette("veranda", 0, .2, .5, .4);
 nu palette("concrete", .3, .5, .6, .5);
 nu palette("flesh", .1, .2, .1, .1);
 nu palette("shadow", .15, .07, .07, .1);
+nu palette("tavern", 0, .7, .35, .1);
+nu palette("cotton", .3, 1, .6, .7);
 //nu palette("inverted", 0, 1, 1, 1, true);

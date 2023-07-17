@@ -8,7 +8,7 @@ iterate dudes to {
 	} else {
 		draw_set_color(c_grey);
 	}
-	draw_meaning(10, 10+i*12, dudes[i]);
+	draw_meaning(10, 4+i*12, dudes[i]);
 }
 draw_set_alpha(1);
 

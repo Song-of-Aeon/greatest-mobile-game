@@ -31,7 +31,7 @@ intendedx = room_width*.7;
 global.count = 0;
 global.me = id;
 #macro df global.me
-skill = global.skills.glide;
+skill = global.skills.boost;
 //skillcharge = 0;
 //skillchargereq = 10;
 juice = new juiceholder();

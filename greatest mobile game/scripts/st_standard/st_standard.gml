@@ -18,6 +18,7 @@ function st_standard() {
 		aerial = false;
 		spd.v = 0;
 		y = buildings[0].bbox_top - sprite_get_yoffset(sprite_index);
+		image_speed = 2.5-(.5+buildings[0].depth_*.2);
 	}
 	else{
 		aerial = true	

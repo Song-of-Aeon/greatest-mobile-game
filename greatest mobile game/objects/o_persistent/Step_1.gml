@@ -6,10 +6,10 @@ if rave.hit global.rave = !global.rave;
 
 c
 if global.rave {
-	if ncm(20) {
+	if ncm(25) {
 		palpos = cycle(palpos+1, array_length(dudes));
 	}
-	var amount = .01;
+	var amount = .015;
 } else {
 	palpos = cycle(palpos+down.hit-up.hit, array_length(dudes));
 	var amount = .05;

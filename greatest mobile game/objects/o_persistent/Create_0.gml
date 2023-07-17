@@ -7,6 +7,7 @@ global.surfaces = {
 }
 palpos = 0;
 dudes = variable_struct_get_names(global.palettes);
+//array_alphebetize(dudes);
 
 thepal = {r: 0, g: 0, b: 0, base: 0, invert: false}
 count = 0;

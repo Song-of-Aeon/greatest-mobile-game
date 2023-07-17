@@ -13,6 +13,7 @@
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"CHR","folderPath":"folders/CHR.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"other","folderPath":"folders/CHR/other.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Curves","folderPath":"folders/Curves.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Dialogue","folderPath":"folders/Dialogue.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"technical","folderPath":"folders/Dialogue/technical.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Entities","folderPath":"folders/Entities.yy",},
@@ -29,12 +30,11 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"array","folderPath":"folders/Scripts/data/array.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"drawing","folderPath":"folders/Scripts/drawing.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"vlambeer","folderPath":"folders/Scripts/drawing/vlambeer.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Shaders","folderPath":"folders/Shaders.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Skills","folderPath":"folders/Skills.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"ui","folderPath":"folders/Sprites/ui.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Textbox","folderPath":"folders/Textbox.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Shaders","folderPath":"folders/Shaders.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Curves","folderPath":"folders/Curves.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"mizuno.sm","CopyToMask":-1,"filePath":"datafiles/maps",},

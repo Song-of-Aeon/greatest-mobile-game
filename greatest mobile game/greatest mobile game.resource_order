@@ -2,6 +2,7 @@
   "FolderOrderSettings": [
     {"name":"CHR","order":4,"path":"folders/CHR.yy",},
     {"name":"other","order":1,"path":"folders/CHR/other.yy",},
+    {"name":"Curves","order":5,"path":"folders/Curves.yy",},
     {"name":"Dialogue","order":6,"path":"folders/Dialogue.yy",},
     {"name":"technical","order":1,"path":"folders/Dialogue/technical.yy",},
     {"name":"Entities","order":13,"path":"folders/Entities.yy",},
@@ -17,11 +18,10 @@
     {"name":"array","order":1,"path":"folders/Scripts/data/array.yy",},
     {"name":"drawing","order":3,"path":"folders/Scripts/drawing.yy",},
     {"name":"vlambeer","order":1,"path":"folders/Scripts/drawing/vlambeer.yy",},
+    {"name":"Shaders","order":14,"path":"folders/Shaders.yy",},
     {"name":"Skills","order":1,"path":"folders/Skills.yy",},
     {"name":"Sprites","order":2,"path":"folders/Sprites.yy",},
     {"name":"Textbox","order":12,"path":"folders/Textbox.yy",},
-    {"name":"Shaders","order":14,"path":"folders/Shaders.yy",},
-    {"name":"Curves","order":5,"path":"folders/Curves.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"pragma","order":43,"path":"scripts/pragma/pragma.yy",},
