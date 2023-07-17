@@ -34,3 +34,4 @@ global.me = id;
 skill = global.skills.glide;
 //skillcharge = 0;
 //skillchargereq = 10;
+juice = new juiceholder();

@@ -5,6 +5,7 @@ global.skills.boost = {
 			used = true;
 			charge = 0;
 			NOSTALGIAC.spd.h = -5;
+			c_juiceset(ac_slam, ac_land, 20, true, NOSTALGIAC);
 		}
 	},
 	onstep: function() {

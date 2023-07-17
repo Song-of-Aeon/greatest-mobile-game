@@ -3,9 +3,9 @@ global.skills = {};
 global.skills.glide = {
 	onuse: function() {
 		if remaining {
-			if NOSTALGIAC.spd.v > flyspd {
-				NOSTALGIAC.spd.v = lerp(NOSTALGIAC.spd.v, flyspd, .1);
-			}
+			NOSTALGIAC.spd.v = lerp(NOSTALGIAC.spd.v, flyspd, .1);
+			c_juiceset(ac_slam, ac_land, duration, true, NOSTALGIAC);
+			NOSTALGIAC.juice.pos = remaining;
 			remaining--;
 		}
 	},
