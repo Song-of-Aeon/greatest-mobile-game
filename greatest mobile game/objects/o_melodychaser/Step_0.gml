@@ -28,6 +28,7 @@ iterate notes to {
 }
 
 
+exit;
 c_input();
 if special.hold && left.hit {
 	audio_sound_set_track_position(global.playingmusicdata, audio_sound_get_track_position(global.playingmusicdata)-5);

@@ -1,20 +1,20 @@
 //global.currentpalette = PALETTES.sunset;
 
+
 var surf = surface_create(room_width, room_height);
 surface_copy(surf, 0, 0, application_surface);
 
 surface_set_target(surf);
-
 gpu_set_blendmode_ext(bm_inv_dest_colour,bm_one);
-draw_rectangle_colour(0,room_height/2,room_width,room_height,c_black,c_black,c_white,c_white,false);
+draw_rectangle_colour(0, 0, room_width, room_height/2, c_black, c_black, c_black, c_black, false);
+draw_rectangle_colour(0, room_height/2, room_width, room_height, c_black, c_black, c_white, c_white, false);
 gpu_set_blendmode(bm_normal);
-
 surface_reset_target();
 shader_set(z_palette);
 //draw_spr(50, 50, s_bpeople);
-shader_set_uniform_f(shader_get_uniform(z_palette, "colmult"), global.currentpalette.r, global.currentpalette.g, global.currentpalette.b);
-shader_set_uniform_f(shader_get_uniform(z_palette, "baseval"), global.currentpalette.base);
-shader_set_uniform_f(shader_get_uniform(z_palette, "invert"), global.currentpalette.invert);
+shader_set_uniform_f(shader_get_uniform(z_palette, "colmult"), thepal.r, thepal.g, thepal.b);
+shader_set_uniform_f(shader_get_uniform(z_palette, "baseval"), thepal.base);
+shader_set_uniform_f(shader_get_uniform(z_palette, "invert"), thepal.invert);
 //shader_set_uniform_f(shader_get_uniform(z_palette, "colmult"), .5, .85, 1);
 //shader_set_uniform_f(shader_get_uniform(z_palette, "baseval"), .2);
 draw_surface(surf, 0, 0);

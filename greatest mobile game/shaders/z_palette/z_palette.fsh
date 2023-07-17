@@ -17,10 +17,10 @@ void main() {
 	color.b += baseval;
 	color.g += baseval;
 	
-	if (true) {
-		//color.r = 1.0-color.r;
-		//color.g = 1.0-color.g;
-		//color.b = 1.0-color.b;
+	if (invert) {
+		color.r = 1.0-color.r;
+		color.g = 1.0-color.g;
+		color.b = 1.0-color.b;
 	}
 	
     gl_FragColor = color * texture2D(gm_BaseTexture, v_vTexcoord);

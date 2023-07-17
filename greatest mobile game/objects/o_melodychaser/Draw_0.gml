@@ -6,9 +6,9 @@ iterate notes to {
 var present_time = audio_sound_get_track_position(global.playingmusicdata);
 draw_text(5, HEIGHT-15, present_time);
 draw_set_alpha(lineflash);
-draw_set_color(c_cyan);
-blend bm_add from_here
+draw_set_color(c_black);
+//blend bm_add from_here
 	draw_line(NOSTALGIAC.intendedx, 0, NOSTALGIAC.intendedx, room_height);
-to_here
+//to_here
 draw_set_color(c_white);
 draw_set_alpha(1);

@@ -13,14 +13,14 @@
     "noborder": {"audioGroupId":"{\"name\":\"audiogroup_default\",\"path\":\"audiogroups/audiogroup_default\"}",},
   },
   "conversionMode": 0,
-  "duration": 194.66449,
+  "duration": 194.62965,
   "parent": {
     "name": "Music",
     "path": "folders/Music.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "m_ikachan.mp3",
+  "soundFile": "m_ikachan.ogg",
   "type": 1,
   "volume": 1.0,
 }
